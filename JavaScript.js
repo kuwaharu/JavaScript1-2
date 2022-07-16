@@ -1,5 +1,6 @@
 var count = 0;
 var flg = true;
+
 while (flg) {
 if (++count > 3) {
 alert ("game over");
