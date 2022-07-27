@@ -1,15 +1,15 @@
 let count = 0;
-let flg = true;
+const flg = prompt("日本の首都は？");
 
-while (flg) {
-if (++count > 3) {
-alert ('game over');
-break;
-}
-if (flg = (prompt ('日本の首都は？') !== '東京')) {
-alert ('不正解です！');
-continue;
-}
-alert ('正解です！');
-break;
+while (true) {
+  if (++count > 3) {
+    alert("game over");
+    break;
+  }
+  if (flg !== "東京") {
+    alert("不正解です！");
+    continue;
+  }
+  alert("正解です！");
+  break;
 }
