@@ -6,7 +6,7 @@ while (true) {
     alert('game over');
     break;
   }
-  if (flg !== "東京") {
+  if (flg !== '東京') {
     alert('不正解です！');
     continue;
   }
