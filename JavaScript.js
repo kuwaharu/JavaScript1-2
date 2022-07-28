@@ -1,7 +1,7 @@
 let count = 0;
-const flg = prompt('日本の首都は？');
 
 while (true) {
+  const flg = prompt('日本の首都は？');
   if (++count > 3) {
     alert('game over');
     break;
